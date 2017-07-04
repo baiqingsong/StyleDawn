@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="只设置颜色的矩形"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rectangle_normal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带内边距和颜色的矩形"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rectangle_with_padding"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带内边距和颜色的矩形和渐变效果"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rectangle_with_gradient"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带内边距和颜色的矩形和圆角"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rectangle_with_corners"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带内边距和颜色的矩形和描边"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_rectangle_with_stroke"/>
+
+</LinearLayout>

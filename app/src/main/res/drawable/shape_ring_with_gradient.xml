@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadius="30dp"
+    android:thickness="5dp"
+    android:useLevel="false">
+    <!-- solid指定形状的填充色，只有android:color一个属性 -->
+    <solid android:color="#00aaff"/>
+    <!-- gradient设置渐变 -->
+    <gradient
+        android:startColor="#ffffff"
+        android:endColor="#00ffaa"
+        android:type="sweep"/>
+</shape>
